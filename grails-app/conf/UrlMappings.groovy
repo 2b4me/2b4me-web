@@ -8,6 +8,7 @@ class UrlMappings {
 		}
 
 		"/"(view:"/index")
+		"/grails"(view:"/index2")
 		"500"(view:'/error')
 	}
 }
